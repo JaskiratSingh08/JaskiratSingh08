@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "About-college",
+      "patterns" : [
+        "Why should i opt for your college over others?"
+      ],
+      "responses": [
+        "The faculty in GNDEC is really friendly . You will see few professors who are really good in their fields with experience, Research Papers and many more. Rest it depends upon your hard work and interactions. Coming to placement scenerio, the average package offered will be around 4LPA in CS branch particularly. "
+      ]
+    },
+    {
+      "tag": "Courses",
+      "patterns": [
+        "What courses do you offer?",
+        "What courses do you have?",
+        "What trades do you have?",
+        "What Branches do you have",
+        "courses"
+      ],
+      "responses": [
+        "./images/pic1.jpg"
+      ]
+    },
+    {
+      "tag" : "Fees",
+      "patterns": [
+        "what is the fees structure?",
+        "fees structure kya hai",
+        "fees structure",
+        "fees structure dsyio",
+        "paise kinne",
+        "Te fees kinni aa"
+      ],
+      "responses": [
+        "Its worth the money my friend:<a href='www.gndec.ac.in'>www.gndec.ac.in</a>"
+      ]
+    },
+    {
+      "tag": "course-length",
+      "patterns": [
+        "time period",
+        "course length",
+        "How much is the course time period"
+      ],
+      "responses": [
+        "4 year for btech (regular students)\n3 year for btech (lateral entry)"
+      ]
+    }
+  ]
+}
